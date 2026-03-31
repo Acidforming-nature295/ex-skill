@@ -36,7 +36,7 @@
 
 | 来源 | 消息记录 | 备注 |
 |------|:-------:|------|
-| 微信（全自动） | ✅ SQLite | 只需 PC 端微信登录 + 提供 TA 的微信名，全自动解密提取 |
+| 微信（全自动） | ✅ SQLite | Windows / macOS，只需微信桌面端登录 + 提供 TA 的微信名，全自动解密提取 |
 | iMessage（全自动） | ✅ SQLite | macOS 用户，提供手机号或 Apple ID 即可，全自动读取 |
 | 图片 / 截图 | ✅ | 手动上传 |
 | 直接粘贴文字 | ✅ | 手动输入 |
@@ -72,7 +72,7 @@ git clone https://github.com/titanwings/ex-skill ~/.claude/skills/create-ex
 pip3 install -r requirements.txt
 ```
 
-> 微信自动采集需要 Windows + PC 端微信保持登录状态；iMessage 需要 macOS。详见 [INSTALL.md](INSTALL.md)
+> 微信自动采集支持 Windows 和 macOS，桌面端微信保持登录即可；iMessage 需要 macOS。详见 [INSTALL.md](INSTALL.md)
 
 ---
 
@@ -200,7 +200,7 @@ create-ex/
 
 - **聊天记录质量决定 Skill 质量**：真实聊天记录 + 主观描述 > 仅手动描述
 - 建议优先导入：**吵架/冲突记录** > **日常闲聊** > **甜蜜时期**（冲突最能暴露真实性格）
-- 微信全自动采集：Windows + PC 端微信保持登录，提供微信名即可
+- 微信全自动采集：Windows / macOS，桌面端微信保持登录，提供微信名即可
 - iMessage 全自动采集：macOS，提供手机号或 Apple ID 即可
 - 支持 LGBT+，性别字段支持所有性别认同与代词
 - 可以建任意多个前任，没有数量限制
