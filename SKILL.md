@@ -52,19 +52,29 @@ Step 5 → 写入文件       （调用 tools/skill_writer.py）
 ```
 现在需要导入 TA 的聊天记录。有三种方式：
 
-方式 A（推荐）：微信 PC 端数据库
-  1. 确保微信 PC 端已登录
-  2. 运行：python tools/wechat_decryptor.py --find-key-only
-  3. 再运行：python tools/wechat_parser.py --db-dir ./decrypted/ --target "TA的微信名" --output messages.txt
-  4. 把 messages.txt 内容粘贴进来
+方式 A（推荐）：微信自动采集
+  只需要确保微信 PC 端已登录，然后告诉我 TA 的微信名就行，剩下的全自动。
 
-方式 B：已解密的 .db 文件
-  python tools/wechat_parser.py --db 你的文件.db --target "TA的微信名" --output messages.txt
+方式 B：iMessage 自动采集（海外用户）
+  macOS 用户，告诉我 TA 的手机号或 Apple ID 就行，自动读取。
 
 方式 C：直接粘贴聊天记录文本或截图
 
 跳过也行，后续随时追加（说"追加记录"）。
 ```
+
+用户选择方式 A 时，自动执行：
+```bash
+python tools/wechat_decryptor.py --find-key-only
+python tools/wechat_parser.py --db-dir ./decrypted/ --target "{用户提供的微信名}" --output messages.txt
+```
+
+用户选择方式 B 时，自动执行：
+```bash
+python tools/wechat_parser.py --imessage --target "{用户提供的手机号或Apple ID}" --output messages.txt
+```
+
+采集完成后自动进入 Step 3，无需用户手动操作。
 
 ---
 
